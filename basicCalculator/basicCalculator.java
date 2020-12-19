@@ -1,5 +1,5 @@
 //basicCalculator.java
-//Bryant Shea
+//Shea, Kimborowicz
 //Computes basic functions
 
 import java.util.Scanner;
