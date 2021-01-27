@@ -17,15 +17,16 @@ public class basicCalculator {
       System.out.print("Please enter your operator in the forms of \"+\", \"-\", \"/\", and \"*\": ");
       operator = input.nextLine();
       
-      if (operator == "*"){
+      if (operator.equals("*")){
       System.out.println(numberOne * numberTwo);
-      }if (operator == "+"){
+      }else if (operator.equals("+")){
       System.out.println(numberOne + numberTwo);
-      }if (operator == "-"){
+      }else if (operator.equals("-")){
       System.out.println(numberOne - numberTwo);
-      }if (operator == "/"){
+      }else if (operator.equals("/")){
       System.out.println(numberOne / numberTwo);
-      }
+      } else
+         System.out.println("You did not put in a correct operator");
       
    }
 }
