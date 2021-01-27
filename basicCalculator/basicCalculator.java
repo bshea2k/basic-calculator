@@ -18,13 +18,13 @@ public class basicCalculator {
       operator = input.next();
       
       if (operator.equals("*")){
-      System.out.println(numberOne * numberTwo);
+         System.out.println(numberOne * numberTwo);
       }else if (operator.equals("+")){
-      System.out.println(numberOne + numberTwo);
+         System.out.println(numberOne + numberTwo);
       }else if (operator.equals("-")){
-      System.out.println(numberOne - numberTwo);
+         System.out.println(numberOne - numberTwo);
       }else if (operator.equals("/")){
-      System.out.println(numberOne / numberTwo);
+         System.out.println(numberOne / numberTwo);
       } else
          System.out.println("You did not put in a correct operator");
       
