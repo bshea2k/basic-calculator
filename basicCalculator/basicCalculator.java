@@ -8,7 +8,7 @@ public class basicCalculator {
 
    public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
-      double numberOne, numberTwo, numberThree;
+      double numberOne, numberTwo;
       String operator;
       System.out.print("Please enter your first number: ");
       numberOne = input.nextDouble();
