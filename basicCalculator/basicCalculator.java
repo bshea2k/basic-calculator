@@ -15,7 +15,7 @@ public class basicCalculator {
       System.out.print("Please enter your second number: ");
       numberTwo = input.nextDouble();
       System.out.print("Please enter your operator in the forms of \"+\", \"-\", \"/\", and \"*\": ");
-      operator = input.nextLine();
+      operator = input.next();
       
       if (operator.equals("*")){
       System.out.println(numberOne * numberTwo);
